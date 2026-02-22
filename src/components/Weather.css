@@ -1,0 +1,86 @@
+/* Style for the weather component */
+.weather{
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #BE95C4, #4a2c6d);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Style for the search bar */
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Style for the input field */
+.search-bar input{
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    color: #626262;
+    background-color: #ebfffc;
+    font-size: 18px;
+}
+
+/* Style for the search button */
+.search-bar img{
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+}
+
+/* Style for the weather icon */
+.weather-icon{
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+}
+
+/* Style for the temperature */
+.temperature{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Style for the location */
+.location{
+    font-size: 24px;
+    color: white;
+}
+
+/* Style for the weather data */
+.weather-data{
+    width: 100%;
+    margin-top: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for each weather data item */
+.weather-data .col{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 20px;
+}
+
+.weather-data .col span{
+    display: block;
+    font-size: 14px;
+}
+
+.weather-data .col img{
+    width: 30px;
+    margin-top: 10px;
+}
