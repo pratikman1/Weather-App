@@ -16,3 +16,10 @@
   background-color: #231942;
 }
 
+.box{
+  width: 400px;
+  background-color: #5e548e;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
